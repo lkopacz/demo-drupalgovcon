@@ -1,0 +1,10 @@
+name = Demo Files
+core = 7.x
+package = Features
+dependencies[] = features
+dependencies[] = field_bases
+dependencies[] = text
+features[features_api][] = api:2
+features[field_instance][] = file-image-field_file_image_alt_text
+features[field_instance][] = file-image-field_file_image_title_text
+project path = sites/all/modules/custom
