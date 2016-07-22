@@ -1,0 +1,16 @@
+name = Demo Search and Facets
+core = 7.x
+package = Features
+dependencies[] = ctools
+dependencies[] = entity
+dependencies[] = facetapi
+dependencies[] = search_api
+dependencies[] = search_api_db
+features[ctools][] = facetapi:facetapi_defaults:1
+features[facetapi][] = search_api@news::field_category
+features[facetapi][] = search_api@news:block:field_category
+features[facetapi][] = search_api@news:block:search_api_language
+features[features_api][] = api:2
+features[search_api_index][] = news
+features[search_api_server][] = news
+project path = sites/all/modules/custom

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Demo Search and Facets feature.
+ */
+
+include_once 'demo_search_and_facets.features.inc';

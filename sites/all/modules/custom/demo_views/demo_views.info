@@ -1,0 +1,16 @@
+name = Demo Views
+core = 7.x
+package = Features
+dependencies[] = better_exposed_filters
+dependencies[] = views
+features[ctools][] = views:views_default:3.0
+features[features_api][] = api:2
+features[views_view][] = admin_view_body_searching
+features[views_view][] = admin_view_images_without_alt
+features[views_view][] = admin_view_imported_projects
+features[views_view][] = admin_view_update_categories
+features[views_view][] = admin_view_updating_article_type
+features[views_view][] = news_1
+features[views_view][] = projects
+features_exclude[dependencies][ctools] = ctools
+project path = sites/all/modules/custom
